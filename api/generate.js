@@ -1,5 +1,4 @@
-import OpenAI from 'openai';
-import busboy from 'busboy';
+javascript\nexport default async (req, res) => {\n const { default: OpenAI } = await import('openai');\n const Busboy = (await import('busboy')).default;\n ...\n};\n
 
 export default async (req, res) => {
   /* ------------------------------------------------------------------ */
