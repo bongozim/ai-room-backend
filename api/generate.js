@@ -1,6 +1,7 @@
-javascript\nexport default async (req, res) => {\n const { default: OpenAI } = await import('openai');\n const Busboy = (await import('busboy')).default;\n ...\n};\n
-
 export default async (req, res) => {
+const { default: OpenAI } = await import('openai');
+const Busboy = (await import('busboy')).default;
+
   /* ------------------------------------------------------------------ */
   /* 0. CORS                                                            */
   /* ------------------------------------------------------------------ */
